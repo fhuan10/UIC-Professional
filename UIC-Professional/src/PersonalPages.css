@@ -1,0 +1,153 @@
+.background {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 640px;
+    position: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+  }
+  
+.background > div {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    display: flex;
+
+}
+
+.background > div > .picturecont {
+    background-color: white;
+    margin: 10px;
+    width: auto;
+    padding: 20px;
+    font-size: 30px;
+    height: 150px;
+    display: flex;
+    
+
+}
+
+.background > div > .namepos {
+    background-color: white;
+    margin: 10px;
+    width: 500px;
+    padding: 20px;
+    font-size: 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.background > div > .namepos > h6 {
+    background-color: white;
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    color: black;
+    
+
+}
+
+.background > div > .button {
+    background-color: white;
+    margin: 10px;
+    width: auto;
+    padding: 20px;
+    font-size: 30px;
+    height: 20px;
+    display: flex;
+    
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.background > .bottom-section {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.background > div > .tags {
+    background-color: white;
+    margin: 10px;
+    width: 700px;
+    padding: 0px;
+    font-size: 30px;
+    height: 100px;
+    display: flex;
+
+}
+
+.background > div > .tags > h6 {
+    background-color: white;
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    color: black;
+
+}
+
+.background > div > .tags > a {
+    border-style: solid;
+    border-color: blue;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+.background > .bottom-section > .descrip {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background > .bottom-section > .descrip > h6{
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-top: -10px;
+}
+
+.background > .bottom-section > .descrip > p{
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-top: -40px;
+    font-size: 15px;
+    text-align: left;
+}
