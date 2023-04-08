@@ -1,0 +1,28 @@
+p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+.Filter {
+    background-color: #D50032;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    color:white;
+
+}
+
+.MajorFilter, .RoleFilter, .GenderFilter {
+    background-color: #13294b;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+
+}
+
+.MajorFilterDropdown, .RoleFilterDropdown, .GenderFilterDropdown {
+    width: 275px;
+    height:30px;
+}

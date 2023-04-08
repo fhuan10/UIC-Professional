@@ -1,0 +1,17 @@
+.ChatListItem {
+    padding: 6px;
+    display: flex;
+    text-align: left;
+}
+.ChatListItem:hover {
+    background-color: #13294b5a;
+    cursor: pointer;
+}
+
+.ChatPersonImage {
+    height:100px;
+    border-radius: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+}

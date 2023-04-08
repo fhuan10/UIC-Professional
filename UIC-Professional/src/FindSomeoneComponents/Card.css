@@ -1,0 +1,24 @@
+.Card {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.CardImage {
+    width: 150px;
+    height: auto;
+}
+
+.CardButton {
+    background-color: #13294b;
+    color: white;
+    border-radius: 0px;
+    height: 50px;
+}
+
+.CardButton:hover {
+    background-color: #D50032;
+    border-color: #D50032;
+    cursor: pointer;
+}

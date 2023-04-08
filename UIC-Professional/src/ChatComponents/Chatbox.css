@@ -1,0 +1,53 @@
+.ChatboxHeader {
+    display:flex;
+    background-color: #13294b;
+    color:white;
+    min-width:1000px;
+    padding:10px;
+    text-align: left;
+}
+
+img {
+    height:75px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.ChatInteractionPlace {
+    height: 500px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-bottom: none;
+    background-color: whitesmoke;
+}
+
+.ChatSendBar {
+    width:920px;
+    height:40px;
+    font-size:16px;
+}
+
+.ChatSendButton {
+    height:40px;
+    width:100px;
+    font-size:16px;
+    font-weight: bold;
+    background-color: #D50032;
+    border-color:#D50032;
+    color:white;
+
+}
+
+.ChatSendButton:hover {
+    background-color: #13294b;
+    border-color:#13294b;
+    cursor: pointer;
+}

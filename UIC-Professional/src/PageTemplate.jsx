@@ -1,4 +1,5 @@
 import './PageTemplate.css'
+import { Link } from 'react-router-dom'
 
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -12,11 +13,13 @@ function PageTemplate() {
         <div className="PageTemplate">
             <div class="navbar">
                     <div class="logo-image">
-                        <img src = "/src/assets/images.png" alt= "UIC" height="50"></img>
+                        <img className="logo-image" src = "/src/assets/logo-image.png" alt= "UIC" height="50"></img>
                     </div>
-                <a href="#Events">Events</a>
-                <a href="#Connect">Connect</a>
-                <a href="#Resources">Resources</a>
+
+                    <Link to="/events">Events</Link>
+                    <Link to="/chat">Chat</Link>
+                    <Link to="/browse-someone">Connect</Link>
+                    <Link to="/resources">Resources</Link>
             </div>
         </div>
 

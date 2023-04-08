@@ -151,3 +151,10 @@
     font-size: 15px;
     text-align: left;
 }
+
+.logo-image {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 59px;
+    height:auto;
+}
