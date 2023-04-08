@@ -1,0 +1,52 @@
+.background {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 1000px;
+    position: center;
+}
+
+.background > .vertical {
+    background-color: white;
+    margin-top: 30px;
+    width: 925px;
+    padding: 20px;
+    font-size: 30px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.background > .vertical > .horizontal {
+    background-color: #1F4096;
+    margin-top: 20px;
+    width: 890px;
+    padding: 20px;
+    font-size: 30px;
+    height: 150px;
+    display: flex;
+
+}
+
+.background > .vertical > .horizontal > .vertical {
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+
+}
+
+.background > .vertical > .horizontal > .vertical > a {
+    font-size: 20px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.background > .vertical > .horizontal > .vertical > h6 {
+    font-size: 20px;
+    color:white;
+
+}

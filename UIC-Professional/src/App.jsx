@@ -7,6 +7,7 @@ import Login from './Login';
 import ChatMessenger from './ChatMessenger';
 import PersonalPages from './PersonalPages';
 import Site from './calendar';
+import Resources from './Resources';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/chat" element={<ChatMessenger />}></Route>
           <Route path="/browse-someone" element={<FindSomeone />}></Route>
           <Route path="/browse-someone/1" element={<PersonalPages />}></Route>
+          <Route path="/resources" element={<Resources />}></Route>
 
         </Routes>
 
