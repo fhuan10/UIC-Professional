@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Card.css'
+import { Link } from 'react-router-dom'
 
 function Card() {
 
@@ -9,7 +10,7 @@ function Card() {
       <h2>Name</h2>
       <h3>Their Role</h3>
       <h3>Pronouns</h3>
-      <button className="CardButton">Click to read more</button>
+      <Link to="/browse-someone/1"><button className="CardButton">Click to read more</button></Link>
 
 
 

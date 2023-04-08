@@ -4,6 +4,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import PageTemplate from './PageTemplate'
 
 function PersonalPages() {
     const [count, setCount] = useState(0)
@@ -12,10 +13,11 @@ function PersonalPages() {
 
     return (
         <div className="PersonalPages">
+            <PageTemplate></PageTemplate>
             <div class="background">
                 <div class="vertical-flex-container">
                     <div class = "picturecont">
-                        <img src = "/src/assets/images.png" alt= "UIC" height="auto"></img>
+                        <img src = "/src/assets/logo-image.png" alt= "UIC" height="auto"></img>
                     </div>
 
                     <div class="namepos">
