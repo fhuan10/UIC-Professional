@@ -22,3 +22,10 @@ fhuang22@uic.edu
 rsimm5@uic.edu
 
 Currently, the functionality is low-level but if continued, UIC can take ownership and implement their own database of alumni and the microsoft login info
+
+# How to Run the Website
+Make sure to download the Node.js.
+Go to the folder UIC-Professional, containing all the JS, CS, and HTML files.
+In the terminal, enter these following commands:
+- npm install
+- npm run dev
